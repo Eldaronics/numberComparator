@@ -4,7 +4,7 @@ val = (input(init))
 typecheck = type(val)
 print(typecheck)
 if type(typecheck) is str:
-    print("WTF?!")
+    print("This is wrong!")
 '''
 val = int(val)
 
