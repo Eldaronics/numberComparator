@@ -1,11 +1,5 @@
 init =print("Type the value: \n")
 val = (input(init))
-'''
-typecheck = type(val)
-print(typecheck)
-if type(typecheck) is str:
-    print("This is wrong!")
-'''
 val = int(val)
 
 if (val %2 == 0)and(val>0):
